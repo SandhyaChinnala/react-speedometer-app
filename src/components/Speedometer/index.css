@@ -1,0 +1,77 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #07080c;
+  padding: 10px;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 40px;
+  margin: 10px;
+  font-style: italic;
+}
+
+.meter-img {
+  width: 50%;
+  height: 30%;
+  margin: 10px;
+}
+@media screen and (max-width: 767px) {
+  .meter-img {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+.speed {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 15px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+}
+
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.brake-btn {
+  background-color: transparent;
+  border: #94a3b8 solid 2px;
+  color: #94a3b8;
+}
